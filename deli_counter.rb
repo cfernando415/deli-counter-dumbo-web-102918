@@ -1,12 +1,12 @@
 # Write your code here.
-require 'pry'
+#require 'pry'
 def line(katz_deli)
   if katz_deli.size == 0
     puts "The line is currently empty."
   else
-    lines = "The line is "
+    lines = "The line is currently:"
     katz_deli.each_with_index do |customer, line|
-      lines << " #{line + 1}. #{customer}"
+      lines += " #{line + 1}. #{customer}"
     end
     puts lines.chomp
   end

@@ -10,7 +10,7 @@ def line(katz_deli)
     end
     puts lines
   end
-  binding.pry
+  #binding.pry
 end
 
 def take_a_number(katz_deli, name)

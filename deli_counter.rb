@@ -8,7 +8,7 @@ def line(katz_deli)
     katz_deli.each_with_index do |customer, line|
       lines << " #{line + 1}. #{customer}"
     end
-    puts lines
+    puts .c
   end
   #binding.pry
 end
